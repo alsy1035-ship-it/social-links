@@ -1,0 +1,91 @@
+
+:root{
+
+--bg-color:  linear-gradient(45deg,oklch(26.096% 0.12794 301.703),oklch(12.221% 0.06445 302.275)) ;
+
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    
+}
+body{
+
+height: 100vh;
+text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+background-image: url(assets/images/silhouette-mountain-starry-sky-night-time-purple-sky-3385x2281-4277.jpg) ;
+
+}
+
+
+#Main_container{
+
+background-color: rgb(21, 6, 41,0.8);
+height: 700px;
+width: 400px;
+padding: 15px 20px;
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+box-shadow: 0px 0px 10px rgb(120, 86, 139);
+border-radius: 20px;
+
+}
+#logo_name_container {
+
+height: 200px;
+margin-bottom: 80px ;
+
+}
+#logo_name_container img{
+
+height: 60%;
+border-radius: 50%;
+margin-bottom: 20px ;
+margin-top: 10px;
+box-shadow: 0px 0px 9px white;
+
+}
+#p1{
+
+font-size: 2rem;
+font-family: sans-serif;
+color: white;
+margin: 15px;
+}
+#p2{
+
+font-size: 1.25rem;
+color: rgba(200, 200, 200, 0.585);
+}
+
+#Main_container a{
+color: rgba(183, 145, 232, 0.8);
+margin: auto;
+height: 50px;
+width: 100% ;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 15px;
+font-weight: bold;
+padding: 30px 0px;
+
+}
+#Main_container a:hover{
+
+background-color: rgba(67, 36, 107, 0.8);
+
+
+}
+
+
+
